@@ -21,7 +21,7 @@ import com.entity.view.BanjileixingView;
 public interface BanjileixingDao extends BaseMapper<BanjileixingEntity> {
 	
 	List<BanjileixingVO> selectListVO(@Param("ew") Wrapper<BanjileixingEntity> wrapper);
-	
+	//xin jia de nei rong
 	BanjileixingVO selectVO(@Param("ew") Wrapper<BanjileixingEntity> wrapper);
 	
 	List<BanjileixingView> selectListView(@Param("ew") Wrapper<BanjileixingEntity> wrapper);
